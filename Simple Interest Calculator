@@ -1,0 +1,36 @@
+ # A py program for simple intrest calculator
+ 
+def SI():
+ 
+ print()
+ p=int(input("Enter your principal: "))
+ r=float(input("Enter the rate %: "))
+ t=int(input("Enter the time period: "))
+ i=(p*r*t)/100 
+ a=p+i 
+ print(f"Simple Intrest is {i} and amount is {a} on data entered") 
+ print("="*60) 
+ 
+ 	
+# Displayed to users 
+print(" "*20, "Calculator", " "*20)
+print("_"*60)
+print()
+name=input("Enter your Name: ")
+print("Hey",name, "Wel Come to calculation portal ")
+print()
+ 	
+a=True
+while a is True:
+	pass  
+	print()
+	print("Do you want to calculate Simple Intrest")
+	response=input("Enter Y for Yes or N for Nope: ")
+	if response =="Y":
+		SI()
+
+	else:
+		continue
+	
+
+
